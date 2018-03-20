@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.alessandro.androcard.DadosFisicosActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Dados físicos"
+        android:textColor="@color/colorTextPrimar"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Altura"
+        android:textSize="23dp"/>
+
+    <EditText
+        android:id="@+id/altura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="metros"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Peso"
+        android:textSize="23dp"/>
+
+    <EditText
+        android:id="@+id/peso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="kg"/>
+
+    <CheckBox
+        android:id="@+id/fumante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/AcentColor"
+        android:textSize="20dp"
+        android:text="Fumante" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="9dp" />
+
+    <CheckBox
+        android:id="@+id/alcolico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/AcentColor"
+        android:textSize="20dp"
+        android:text="Pratica alcolismo" />
+
+
+
+</LinearLayout>
